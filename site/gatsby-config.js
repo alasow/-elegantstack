@@ -5,12 +5,22 @@ module.exports = {
       options: {}
     },
     {
+      resolve: 'gatsby-plugin-disqus',
+      options: {
+        shortname: 'impact-7'
+      }
+    },
+    {
       resolve: '@elegantstack/gatsby-theme-flexiblog-agency',
       options: {
         // Add theme options here. Check documentation for available options.
         siteUrl: process.env.URL || process.env.VERCEL_URL,
         sources: {
           local: true
+        },
+        services: {
+          disqus: true
+         
         }
       }
     }

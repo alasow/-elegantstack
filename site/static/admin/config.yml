@@ -10,7 +10,7 @@
 
   backend: {
       name: 'github', # Name of your git hosting service (ie. github, gitlab)
-      repo: 'alasow/elegantstack', # Path to your GitHub repository
+      repo: 'alasow/-elegantstack', # Path to your GitHub repository
       branch: 'main'
     },
 

@@ -1346,6 +1346,7 @@
   dependencies:
     "@elegantstack/gatsby-theme-flexiblog-agency" "*"
     gatsby "5.6.0"
+    gatsby-plugin-netlify-cms "^7.12.1"
     netlify-cms-app "^2.15.72"
     react "^18.2.0"
     react-dom "^18.2.0"
@@ -5572,6 +5573,11 @@ dotenv-expand@^5.1.0:
   resolved "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-5.1.0.tgz"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
+dotenv@^16.4.5:
+  version "16.4.5"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz"
+  integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
+
 dotenv@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-7.0.0.tgz"
@@ -6810,10 +6816,10 @@ gatsby-plugin-catch-links@^5.6.0:
     "@babel/runtime" "^7.20.13"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-disqus@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npmjs.org/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.4.tgz"
-  integrity sha512-HoNJdTKKifRIGVMTMt1rbFModWm3UT7Mnae24R0kuR0bj5b1XzJF9pgQ78BSFVP+D7Yndn51+vEr8goDLIBOGg==
+gatsby-plugin-disqus@^1.2.4, gatsby-plugin-disqus@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.npmjs.org/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.6.tgz"
+  integrity sha512-lGa6q7oldF3cxbwcS1dvndaxDevEBfYOIweUYOARheU0AhbDzYp4lyIvUkUwBYEWsAzIsuJNiugI6yIcQXy09g==
 
 gatsby-plugin-emotion@4.5.0:
   version "4.5.0"
